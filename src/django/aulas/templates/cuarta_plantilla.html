@@ -1,0 +1,17 @@
+<html>
+    <body>
+        <h2>
+            Hola {{ nombre }}!, esta es mi cuarta plantilla en archivo!
+            <br>
+            Hoy es: {{ fecha_actual.year }} / {{ fecha_actual.month }} / {{ fecha_actual.day }}
+        </h2>
+        <p>El empleado trabaja los dias:</p>
+        {% if dias_laborales %}
+            <ul>
+                {% for dia in dias_laborales %}
+                    <li>{{ dia }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    </body>
+</html>
