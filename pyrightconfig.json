@@ -1,0 +1,8 @@
+{
+  "venvPath": ".",
+  "venv": ".venv",
+  "extraPaths": ["src/django"],
+  "typeCheckingMode": "basic",
+  "exclude": ["**/__pycache__", "**/migrations"],
+  "reportMissingImports": "warning"
+}

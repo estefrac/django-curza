@@ -1,0 +1,4 @@
+[tool.ruff.lint]
+# DTZ011: date.today() no considera zona horaria. Es un aviso válido para apps
+# con usuarios en varias zonas horarias, pero para práctica local está bien así.
+ignore = ["DTZ011"]
